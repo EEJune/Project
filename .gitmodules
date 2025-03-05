@@ -1,0 +1,3 @@
+[submodule "YU_Food"]
+	path = YU_Food
+	url = https://github.com/YU-SWE/FE.git
