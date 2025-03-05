@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Jukebox</title>
+  <link href="./styles/jukebox.css" rel="stylesheet">
+  <script src="jukebox.js"></script>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="wrapper__header">
+      <div class="wrapper__title">
+        <div class="title">추억의 BGM</div>
+        <div class="subtitle">TODAY CHOICE</div>
+      </div>
+      <div class="divideLine"></div>
+      <div class="albumWrapper">
+        <div class="album">
+          <img src="image/jukebox-01.png">
+          <div class="album__title">Y(Please Tell Me Why)</div>
+          <div class="album_singer">프리스타일</div>
+        </div>
+        <div class="album">
+          <img src="image/jukebox-02.png">
+          <div class="album__title">눈의 꽃</div>
+          <div class="album_singer">박효신</div>
+        </div>
+        <div class="album">
+          <img src="image/jukebox-03.png">
+          <div class="album__title">사랑했나봐</div>
+          <div class="album_singer">윤도현</div>
+        </div>
+      </div>
+    </div>
+    <div class="wrapper__body">
+      <div class="wrapper__title">
+        <div class="title">추억의 BGM</div>
+        <div class="subtitle">TODAY CHOICE</div>
+      </div>
+      <table class="albumTable">
+        <thead>
+        <tr>
+          <th class="box"><input type="checkbox" onclick="AllClick(this)"></th>
+          <th class="albumNum">번호</th>
+          <th>곡명</th>
+          <th>아티스트</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td  class="box"><input type="checkbox"></td>
+          <td class="albumNum">1</td>
+          <td>눈의 꽃</td>
+          <td>박효신</td>
+        </tr>
+        </tbody>
+        <tbody>
+        <tr>
+          <td class="box"><input type="checkbox"></td>
+          <td class="albumNum">2</td>
+          <td>사랑스러워</td>
+          <td>김종국</td>
+        </tr>
+        </tbody>
+        <tbody>
+        <tr>
+          <td class="box"><input type="checkbox"></td>
+          <td class="albumNum">3</td>
+          <td>내 사람: Partner For Life</td>
+          <td>SG 워너비</td>
+        </tr>
+        </tbody>
+        <tbody>
+        <tr>
+          <td class="box"><input type="checkbox"></td>
+          <td class="albumNum">4</td>
+          <td>Love Love Love</td>
+          <td>에픽하이</td>
+        </tr>
+        </tbody>
+        <tbody>
+        <tr>
+          <td class="box"><input type="checkbox"></td>
+          <td class="albumNum">5</td>
+          <td>애인...있어요</td>
+          <td>이은미</td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</body>
+</html>

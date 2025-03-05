@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    background-image: url("./images/Drizzle.gif");
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    min-height: 100vh;
+}
+.main-body{
+    background-color: #E8D9FF;
+    width:45%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 70%;
+    border-radius: 50px;
+    border:5px solid #D182FF;
+}
+h1{
+    color: white;
+    text-shadow: 2px 2px gray;
+    opacity: 80%;
+}
+input{
+    opacity: 70%;
+}
+.todo-container {
+    max-width: 100%;
+    width: 500px;
+}
+
+#todo-input {
+    border: none;
+    border-radius: 15px;
+    display: block;
+    font-size: 1.3rem;
+    padding: 0.5rem 2rem 0.5rem 0.5rem;
+    width: 100%;
+    opacity: 70%;
+}
+#todo-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#todo-list li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px solid black;
+    font-size: 1.2rem;
+    user-select: none;
+    padding: 5px 0px;
+}
+
+.complete {
+    color: rgb(155, 155, 155);
+    text-decoration: line-through;
+}
+
+li input[type="checkbox"] {
+    display: none;
+}
+input[type="checkbox"]+label{
+    display: inline-block;
+    width: 1.2rem;
+    height: 1.2rem;
+    margin: 0.5rem;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    /*background:url("./images/checkbox.png") 0 0 no-repeat;*/
+}
+li input[type="checkbox"]:checked+label{
+    background:url("images/checkbox.png") 0 0 no-repeat;
+    background-size: cover;
+    border: none;
+}
+.delete-btn-wrapper{
+    margin-top: 1rem;
+}
+.delete-btn-wrapper button{
+    font-weight: bold;
+    background-color: #FFB2F5;
+    padding: 0.2rem 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 3px 3px gray;
+}
+.delete-btn-wrapper button:active{
+    box-shadow:none;
+    margin-left: 3px;
+    margin-top: 3px;
+}

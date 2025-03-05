@@ -1,0 +1,128 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+html,body{
+    width: 100%;
+    height:100%;
+}
+.wrapper{
+    width: 100%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+}
+.wrapper__header{
+    width:100%;
+    height: 223px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.wrapper__title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+.title{
+    color:#55B2E4;
+    font-size: 13px;
+    font-weight: 700;
+}
+.subtitle{
+    font-size: 8px;
+    padding-left: 5px;
+}
+.divideLine{
+    width: 100%;
+    border-top: 1px solid gray;
+    margin: 10px 0px;
+}
+.albumWrapper{
+    padding: 10px;
+    width: 100%;
+    height:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.album{
+    display: flex;
+    flex-direction: column;
+}
+img{
+    width:120px;
+    height: 120px;
+}
+.album__title{
+    padding-top: 10px;
+    font-family: Malgun Gothic;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #0F465E;
+}
+.album_singer{
+    font-family: Malgun Gothic;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 13px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #999999;
+}
+.wrapper__body{
+    width:100%;
+    height: 223px;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 20px;
+}
+.albumTable{
+    margin-top: 10px;
+    width: 100%;
+    height: 120px;
+    text-align: start;
+    border-collapse: collapse;
+}
+thead{
+    width: 100%;
+    height: 20px;
+    border-top: 1px solid #999999;
+    border-bottom: 1px solid #999999;
+    background-color: #EEEEEE;
+    font-family: Malgun Gothic;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 13px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #999999;
+}
+tbody{
+    border-bottom: 1px dotted #999999;
+    font-family: Malgun Gothic;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 13px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #0F465E;
+}
+.albumNum{
+    text-align: center;
+}
+input[type="checkbox"]{
+    width: 12px;
+    height: 12px;
+    border: 1px solid #999999;
+}
+.box{
+    margin-top: 3px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

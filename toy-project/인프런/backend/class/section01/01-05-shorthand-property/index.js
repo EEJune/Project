@@ -1,0 +1,1 @@
+const profile={name,age,school,createdAt    }
